@@ -16,7 +16,7 @@ namespace ApiCAWTest
 		ApiHelper helper = new ApiHelper();
 
 		[TestMethod]
-		[Ignore]
+		
 		public void TestToken()
 		{
 			string token = helper.AuthToken();
@@ -24,7 +24,7 @@ namespace ApiCAWTest
 		}
 
 		[TestMethod]
-		[Ignore]
+		
 		public void CreateBooking()
 		{
 			var client = helper.setClient();
@@ -38,7 +38,7 @@ namespace ApiCAWTest
 		}
 
 		[TestMethod]
-		[Ignore]
+		
 		public void GetBooking()
 		{
 			var client = helper.setClient();
